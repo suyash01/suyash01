@@ -5,6 +5,7 @@
 
 html {
 	scroll-behavior: smooth;
+	width: 99%;
 }
 
 body {
@@ -42,7 +43,7 @@ nav li {
 
 #home {
 	min-height: calc(100vh - 100px);
-	padding-top: 100px;
+	padding: 100px 10px 0 10px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -79,12 +80,16 @@ nav li {
 #technologies {
 	text-align: center;
 	min-height: calc(100vh - 100px);
-	padding-top: 100px;
+	padding: 100px 10px 0 10px;
+}
+
+.technology {
+	margin-bottom: 20px;
 }
 
 #technologies img {
-	height: 200px;
-	width: 200px;
+	height: 150px;
+	width: 150px;
 	margin: auto;
 	padding: 30px 0 10px 0;
 }
@@ -92,7 +97,7 @@ nav li {
 #projects {
 	text-align: center;
 	min-height: calc(100vh - 150px);
-	padding-top: 100px;
+	padding: 100px 10px 0 10px;
 }
 
 footer {
